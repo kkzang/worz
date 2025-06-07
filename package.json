@@ -4,9 +4,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-      "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
     "dev": "EXPO_NO_TELEMETRY=1 expo start",
     "build:web": "expo export --platform web",
     "lint": "expo lint"
