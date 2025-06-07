@@ -1,0 +1,3440 @@
+{
+  "love": {
+    "word": "love",
+    "definition": "emotional, powerful, universal",
+    "category": "EMOTION",
+    "translations": {
+      "ko": "사랑",
+      "ja": "愛"
+    },
+    "bookmarks": 82,
+    "relatedWords": [
+      {
+        "word": "SHAKESPEARE",
+        "type": "related",
+        "description": "Master of romantic literature"
+      },
+      {
+        "word": "CLEOPATRA",
+        "type": "related",
+        "description": "Historic symbol of passion"
+      },
+      {
+        "word": "affection",
+        "type": "synonym",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with love"
+      },
+      {
+        "word": "hate",
+        "type": "antonym",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with love"
+      },
+      {
+        "word": "peace",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "평화",
+          "ja": "平和"
+        },
+        "description": "Connected to love through tranquil characteristics"
+      },
+      {
+        "word": "beauty",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "아름다움",
+          "ja": "美"
+        },
+        "description": "Connected to love through aesthetic characteristics"
+      },
+      {
+        "word": "write",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with love"
+      },
+      {
+        "word": "create",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with love"
+      },
+      {
+        "word": "build",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with love"
+      },
+      {
+        "word": "learn",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with love"
+      },
+      {
+        "word": "design",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with love"
+      },
+      {
+        "word": "speak",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with love"
+      },
+      {
+        "word": "excitement",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with love"
+      },
+      {
+        "word": "time",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "시간",
+          "ja": "時間"
+        },
+        "description": "Connected to love through continuous characteristics"
+      }
+    ]
+  },
+  "time": {
+    "word": "time",
+    "definition": "continuous, measurable, abstract",
+    "category": "ABSTRACT",
+    "translations": {
+      "ko": "시간",
+      "ja": "時間"
+    },
+    "bookmarks": 879,
+    "relatedWords": [
+      {
+        "word": "EINSTEIN",
+        "type": "related",
+        "description": "Redefined time in physics"
+      },
+      {
+        "word": "HAWKING",
+        "type": "related",
+        "description": "Explored time's mysteries"
+      },
+      {
+        "word": "moment",
+        "type": "synonym",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with time"
+      },
+      {
+        "word": "timeless",
+        "type": "antonym",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with time"
+      },
+      {
+        "word": "freedom",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with time"
+      },
+      {
+        "word": "peace",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "평화",
+          "ja": "平和"
+        },
+        "description": "Connected to time through tranquil characteristics"
+      },
+      {
+        "word": "happy",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with time"
+      },
+      {
+        "word": "design",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with time"
+      },
+      {
+        "word": "justice",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with time"
+      },
+      {
+        "word": "beauty",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "아름다움",
+          "ja": "美"
+        },
+        "description": "Connected to time through aesthetic characteristics"
+      },
+      {
+        "word": "write",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with time"
+      },
+      {
+        "word": "fear",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with time"
+      },
+      {
+        "word": "joy",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with time"
+      },
+      {
+        "word": "hope",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "희망",
+          "ja": "希望"
+        },
+        "description": "Connected to time through optimistic characteristics"
+      }
+    ]
+  },
+  "freedom": {
+    "word": "freedom",
+    "definition": "A abstract term",
+    "category": "ABSTRACT",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 145,
+    "relatedWords": [
+      {
+        "word": "NEWTON",
+        "type": "related",
+        "description": "Scientific revolutionary"
+      },
+      {
+        "word": "TESLA",
+        "type": "related",
+        "description": "Inventor and visionary"
+      },
+      {
+        "word": "fear",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with freedom"
+      },
+      {
+        "word": "design",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with freedom"
+      },
+      {
+        "word": "time",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "시간",
+          "ja": "時間"
+        },
+        "description": "Connected to freedom through continuous characteristics"
+      },
+      {
+        "word": "learn",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with freedom"
+      },
+      {
+        "word": "run",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with freedom"
+      },
+      {
+        "word": "angry",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with freedom"
+      },
+      {
+        "word": "love",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "사랑",
+          "ja": "愛"
+        },
+        "description": "Connected to freedom through emotional characteristics"
+      },
+      {
+        "word": "hope",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "희망",
+          "ja": "希望"
+        },
+        "description": "Connected to freedom through optimistic characteristics"
+      },
+      {
+        "word": "truth",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "진실",
+          "ja": "真実"
+        },
+        "description": "Connected to freedom through fundamental characteristics"
+      },
+      {
+        "word": "peace",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "평화",
+          "ja": "平和"
+        },
+        "description": "Connected to freedom through tranquil characteristics"
+      },
+      {
+        "word": "joy",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with freedom"
+      },
+      {
+        "word": "write",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with freedom"
+      }
+    ]
+  },
+  "peace": {
+    "word": "peace",
+    "definition": "tranquil, harmonious, calm",
+    "category": "STATE",
+    "translations": {
+      "ko": "평화",
+      "ja": "平和"
+    },
+    "bookmarks": 1044,
+    "relatedWords": [
+      {
+        "word": "AUSTEN",
+        "type": "related",
+        "description": "Classic novelist"
+      },
+      {
+        "word": "HEMINGWAY",
+        "type": "related",
+        "description": "Literary giant"
+      },
+      {
+        "word": "excitement",
+        "type": "related",
+        "category": "STATE",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with peace"
+      },
+      {
+        "word": "beauty",
+        "type": "related",
+        "category": "STATE",
+        "translations": {
+          "ko": "아름다움",
+          "ja": "美"
+        },
+        "description": "Connected to peace through aesthetic characteristics"
+      },
+      {
+        "word": "wisdom",
+        "type": "related",
+        "category": "STATE",
+        "translations": {
+          "ko": "지혜",
+          "ja": "知恵"
+        },
+        "description": "Connected to peace through knowledgeable characteristics"
+      },
+      {
+        "word": "hope",
+        "type": "related",
+        "category": "STATE",
+        "translations": {
+          "ko": "희망",
+          "ja": "希望"
+        },
+        "description": "Connected to peace through optimistic characteristics"
+      },
+      {
+        "word": "write",
+        "type": "related",
+        "category": "STATE",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with peace"
+      },
+      {
+        "word": "speak",
+        "type": "related",
+        "category": "STATE",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with peace"
+      },
+      {
+        "word": "love",
+        "type": "related",
+        "category": "STATE",
+        "translations": {
+          "ko": "사랑",
+          "ja": "愛"
+        },
+        "description": "Connected to peace through emotional characteristics"
+      },
+      {
+        "word": "time",
+        "type": "related",
+        "category": "STATE",
+        "translations": {
+          "ko": "시간",
+          "ja": "時間"
+        },
+        "description": "Connected to peace through continuous characteristics"
+      },
+      {
+        "word": "create",
+        "type": "related",
+        "category": "STATE",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with peace"
+      },
+      {
+        "word": "joy",
+        "type": "related",
+        "category": "STATE",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with peace"
+      },
+      {
+        "word": "learn",
+        "type": "related",
+        "category": "STATE",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with peace"
+      },
+      {
+        "word": "build",
+        "type": "related",
+        "category": "STATE",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with peace"
+      }
+    ]
+  },
+  "truth": {
+    "word": "truth",
+    "definition": "fundamental, absolute, factual",
+    "category": "ABSTRACT",
+    "translations": {
+      "ko": "진실",
+      "ja": "真実"
+    },
+    "bookmarks": 241,
+    "relatedWords": [
+      {
+        "word": "HEMINGWAY",
+        "type": "related",
+        "description": "Literary giant"
+      },
+      {
+        "word": "AUSTEN",
+        "type": "related",
+        "description": "Classic novelist"
+      },
+      {
+        "word": "love",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "사랑",
+          "ja": "愛"
+        },
+        "description": "Connected to truth through emotional characteristics"
+      },
+      {
+        "word": "build",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with truth"
+      },
+      {
+        "word": "happy",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with truth"
+      },
+      {
+        "word": "fear",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with truth"
+      },
+      {
+        "word": "speak",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with truth"
+      },
+      {
+        "word": "write",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with truth"
+      },
+      {
+        "word": "joy",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with truth"
+      },
+      {
+        "word": "design",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with truth"
+      },
+      {
+        "word": "create",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with truth"
+      },
+      {
+        "word": "sad",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with truth"
+      },
+      {
+        "word": "wisdom",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "지혜",
+          "ja": "知恵"
+        },
+        "description": "Connected to truth through knowledgeable characteristics"
+      },
+      {
+        "word": "beauty",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "아름다움",
+          "ja": "美"
+        },
+        "description": "Connected to truth through aesthetic characteristics"
+      }
+    ]
+  },
+  "beauty": {
+    "word": "beauty",
+    "definition": "aesthetic, pleasing, attractive",
+    "category": "ABSTRACT",
+    "translations": {
+      "ko": "아름다움",
+      "ja": "美"
+    },
+    "bookmarks": 384,
+    "relatedWords": [
+      {
+        "word": "MONET",
+        "type": "related",
+        "description": "Impressionist pioneer"
+      },
+      {
+        "word": "PICASSO",
+        "type": "related",
+        "description": "Modern art master"
+      },
+      {
+        "word": "time",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "시간",
+          "ja": "時間"
+        },
+        "description": "Connected to beauty through continuous characteristics"
+      },
+      {
+        "word": "design",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with beauty"
+      },
+      {
+        "word": "build",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with beauty"
+      },
+      {
+        "word": "happy",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with beauty"
+      },
+      {
+        "word": "speak",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with beauty"
+      },
+      {
+        "word": "truth",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "진실",
+          "ja": "真実"
+        },
+        "description": "Connected to beauty through fundamental characteristics"
+      },
+      {
+        "word": "teach",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with beauty"
+      },
+      {
+        "word": "wisdom",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "지혜",
+          "ja": "知恵"
+        },
+        "description": "Connected to beauty through knowledgeable characteristics"
+      },
+      {
+        "word": "peace",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "평화",
+          "ja": "平和"
+        },
+        "description": "Connected to beauty through tranquil characteristics"
+      },
+      {
+        "word": "worry",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with beauty"
+      },
+      {
+        "word": "joy",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with beauty"
+      },
+      {
+        "word": "learn",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with beauty"
+      }
+    ]
+  },
+  "justice": {
+    "word": "justice",
+    "definition": "A abstract term",
+    "category": "ABSTRACT",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 949,
+    "relatedWords": [
+      {
+        "word": "TOLKIEN",
+        "type": "related",
+        "description": "Fantasy master"
+      },
+      {
+        "word": "AUSTEN",
+        "type": "related",
+        "description": "Classic novelist"
+      },
+      {
+        "word": "hope",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "희망",
+          "ja": "希望"
+        },
+        "description": "Connected to justice through optimistic characteristics"
+      },
+      {
+        "word": "love",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "사랑",
+          "ja": "愛"
+        },
+        "description": "Connected to justice through emotional characteristics"
+      },
+      {
+        "word": "time",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "시간",
+          "ja": "時間"
+        },
+        "description": "Connected to justice through continuous characteristics"
+      },
+      {
+        "word": "design",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with justice"
+      },
+      {
+        "word": "angry",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with justice"
+      },
+      {
+        "word": "run",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with justice"
+      },
+      {
+        "word": "wisdom",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "지혜",
+          "ja": "知恵"
+        },
+        "description": "Connected to justice through knowledgeable characteristics"
+      },
+      {
+        "word": "happy",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with justice"
+      },
+      {
+        "word": "speak",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with justice"
+      },
+      {
+        "word": "worry",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with justice"
+      },
+      {
+        "word": "teach",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with justice"
+      },
+      {
+        "word": "freedom",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with justice"
+      }
+    ]
+  },
+  "wisdom": {
+    "word": "wisdom",
+    "definition": "knowledgeable, insightful, sage",
+    "category": "ABSTRACT",
+    "translations": {
+      "ko": "지혜",
+      "ja": "知恵"
+    },
+    "bookmarks": 394,
+    "relatedWords": [
+      {
+        "word": "SOCRATES",
+        "type": "related",
+        "description": "Father of Western philosophy"
+      },
+      {
+        "word": "CONFUCIUS",
+        "type": "related",
+        "description": "Ancient wisdom teacher"
+      },
+      {
+        "word": "angry",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with wisdom"
+      },
+      {
+        "word": "worry",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with wisdom"
+      },
+      {
+        "word": "hope",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "희망",
+          "ja": "希望"
+        },
+        "description": "Connected to wisdom through optimistic characteristics"
+      },
+      {
+        "word": "happy",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with wisdom"
+      },
+      {
+        "word": "time",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "시간",
+          "ja": "時間"
+        },
+        "description": "Connected to wisdom through continuous characteristics"
+      },
+      {
+        "word": "write",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with wisdom"
+      },
+      {
+        "word": "learn",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with wisdom"
+      },
+      {
+        "word": "design",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with wisdom"
+      },
+      {
+        "word": "truth",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "진실",
+          "ja": "真実"
+        },
+        "description": "Connected to wisdom through fundamental characteristics"
+      },
+      {
+        "word": "joy",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with wisdom"
+      },
+      {
+        "word": "sad",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with wisdom"
+      },
+      {
+        "word": "beauty",
+        "type": "related",
+        "category": "ABSTRACT",
+        "translations": {
+          "ko": "아름다움",
+          "ja": "美"
+        },
+        "description": "Connected to wisdom through aesthetic characteristics"
+      }
+    ]
+  },
+  "run": {
+    "word": "run",
+    "definition": "A actions term",
+    "category": "ACTIONS",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 200,
+    "relatedWords": [
+      {
+        "word": "PICASSO",
+        "type": "related",
+        "description": "Modern art master"
+      },
+      {
+        "word": "MONET",
+        "type": "related",
+        "description": "Impressionist pioneer"
+      },
+      {
+        "word": "excitement",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with run"
+      },
+      {
+        "word": "peace",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "평화",
+          "ja": "平和"
+        },
+        "description": "Connected to run through tranquil characteristics"
+      },
+      {
+        "word": "design",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with run"
+      },
+      {
+        "word": "truth",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "진실",
+          "ja": "真実"
+        },
+        "description": "Connected to run through fundamental characteristics"
+      },
+      {
+        "word": "build",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with run"
+      },
+      {
+        "word": "joy",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with run"
+      },
+      {
+        "word": "angry",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with run"
+      },
+      {
+        "word": "hope",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "희망",
+          "ja": "希望"
+        },
+        "description": "Connected to run through optimistic characteristics"
+      },
+      {
+        "word": "beauty",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "아름다움",
+          "ja": "美"
+        },
+        "description": "Connected to run through aesthetic characteristics"
+      },
+      {
+        "word": "freedom",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with run"
+      },
+      {
+        "word": "sad",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with run"
+      },
+      {
+        "word": "love",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "사랑",
+          "ja": "愛"
+        },
+        "description": "Connected to run through emotional characteristics"
+      }
+    ]
+  },
+  "write": {
+    "word": "write",
+    "definition": "A actions term",
+    "category": "ACTIONS",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 1046,
+    "relatedWords": [
+      {
+        "word": "MONET",
+        "type": "related",
+        "description": "Impressionist pioneer"
+      },
+      {
+        "word": "WARHOL",
+        "type": "related",
+        "description": "Pop art icon"
+      },
+      {
+        "word": "create",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with write"
+      },
+      {
+        "word": "time",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "시간",
+          "ja": "時間"
+        },
+        "description": "Connected to write through continuous characteristics"
+      },
+      {
+        "word": "peace",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "평화",
+          "ja": "平和"
+        },
+        "description": "Connected to write through tranquil characteristics"
+      },
+      {
+        "word": "run",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with write"
+      },
+      {
+        "word": "sad",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with write"
+      },
+      {
+        "word": "joy",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with write"
+      },
+      {
+        "word": "wisdom",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "지혜",
+          "ja": "知恵"
+        },
+        "description": "Connected to write through knowledgeable characteristics"
+      },
+      {
+        "word": "love",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "사랑",
+          "ja": "愛"
+        },
+        "description": "Connected to write through emotional characteristics"
+      },
+      {
+        "word": "design",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with write"
+      },
+      {
+        "word": "freedom",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with write"
+      },
+      {
+        "word": "excitement",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with write"
+      },
+      {
+        "word": "speak",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with write"
+      }
+    ]
+  },
+  "speak": {
+    "word": "speak",
+    "definition": "A actions term",
+    "category": "ACTIONS",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 142,
+    "relatedWords": [
+      {
+        "word": "PLATO",
+        "type": "related",
+        "description": "Classical philosopher"
+      },
+      {
+        "word": "teach",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with speak"
+      },
+      {
+        "word": "angry",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with speak"
+      },
+      {
+        "word": "peace",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "평화",
+          "ja": "平和"
+        },
+        "description": "Connected to speak through tranquil characteristics"
+      },
+      {
+        "word": "build",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with speak"
+      },
+      {
+        "word": "create",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with speak"
+      },
+      {
+        "word": "fear",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with speak"
+      },
+      {
+        "word": "write",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with speak"
+      },
+      {
+        "word": "love",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "사랑",
+          "ja": "愛"
+        },
+        "description": "Connected to speak through emotional characteristics"
+      },
+      {
+        "word": "justice",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with speak"
+      },
+      {
+        "word": "worry",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with speak"
+      },
+      {
+        "word": "sad",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with speak"
+      },
+      {
+        "word": "excitement",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with speak"
+      },
+      {
+        "word": "hope",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "희망",
+          "ja": "希望"
+        },
+        "description": "Connected to speak through optimistic characteristics"
+      }
+    ]
+  },
+  "build": {
+    "word": "build",
+    "definition": "A actions term",
+    "category": "ACTIONS",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 222,
+    "relatedWords": [
+      {
+        "word": "KANT",
+        "type": "related",
+        "description": "Enlightenment philosopher"
+      },
+      {
+        "word": "time",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "시간",
+          "ja": "時間"
+        },
+        "description": "Connected to build through continuous characteristics"
+      },
+      {
+        "word": "write",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with build"
+      },
+      {
+        "word": "excitement",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with build"
+      },
+      {
+        "word": "sad",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with build"
+      },
+      {
+        "word": "worry",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with build"
+      },
+      {
+        "word": "create",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with build"
+      },
+      {
+        "word": "justice",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with build"
+      },
+      {
+        "word": "fear",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with build"
+      },
+      {
+        "word": "freedom",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with build"
+      },
+      {
+        "word": "joy",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with build"
+      },
+      {
+        "word": "run",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with build"
+      },
+      {
+        "word": "learn",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with build"
+      },
+      {
+        "word": "truth",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "진실",
+          "ja": "真実"
+        },
+        "description": "Connected to build through fundamental characteristics"
+      }
+    ]
+  },
+  "create": {
+    "word": "create",
+    "definition": "A actions term",
+    "category": "ACTIONS",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 778,
+    "relatedWords": [
+      {
+        "word": "LEONARDO DA VINCI",
+        "type": "related",
+        "description": "Renaissance creator"
+      },
+      {
+        "word": "STEVE JOBS",
+        "type": "related",
+        "description": "Innovative creator"
+      },
+      {
+        "word": "make",
+        "type": "synonym",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with create"
+      },
+      {
+        "word": "destroy",
+        "type": "antonym",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with create"
+      },
+      {
+        "word": "design",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with create"
+      },
+      {
+        "word": "build",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with create"
+      },
+      {
+        "word": "fear",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with create"
+      },
+      {
+        "word": "angry",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with create"
+      },
+      {
+        "word": "run",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with create"
+      },
+      {
+        "word": "happy",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with create"
+      },
+      {
+        "word": "time",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "시간",
+          "ja": "時間"
+        },
+        "description": "Connected to create through continuous characteristics"
+      },
+      {
+        "word": "love",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "사랑",
+          "ja": "愛"
+        },
+        "description": "Connected to create through emotional characteristics"
+      },
+      {
+        "word": "joy",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with create"
+      },
+      {
+        "word": "worry",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with create"
+      }
+    ]
+  },
+  "design": {
+    "word": "design",
+    "definition": "A actions term",
+    "category": "ACTIONS",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 721,
+    "relatedWords": [
+      {
+        "word": "PICASSO",
+        "type": "related",
+        "description": "Modern art master"
+      },
+      {
+        "word": "MONET",
+        "type": "related",
+        "description": "Impressionist pioneer"
+      },
+      {
+        "word": "worry",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with design"
+      },
+      {
+        "word": "angry",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with design"
+      },
+      {
+        "word": "truth",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "진실",
+          "ja": "真実"
+        },
+        "description": "Connected to design through fundamental characteristics"
+      },
+      {
+        "word": "happy",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with design"
+      },
+      {
+        "word": "freedom",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with design"
+      },
+      {
+        "word": "time",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "시간",
+          "ja": "時間"
+        },
+        "description": "Connected to design through continuous characteristics"
+      },
+      {
+        "word": "create",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with design"
+      },
+      {
+        "word": "joy",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with design"
+      },
+      {
+        "word": "run",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with design"
+      },
+      {
+        "word": "justice",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with design"
+      },
+      {
+        "word": "excitement",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with design"
+      },
+      {
+        "word": "wisdom",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "지혜",
+          "ja": "知恵"
+        },
+        "description": "Connected to design through knowledgeable characteristics"
+      }
+    ]
+  },
+  "teach": {
+    "word": "teach",
+    "definition": "A actions term",
+    "category": "ACTIONS",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 60,
+    "relatedWords": [
+      {
+        "word": "MARIA MONTESSORI",
+        "type": "related",
+        "description": "Education pioneer"
+      },
+      {
+        "word": "ARISTOTLE",
+        "type": "related",
+        "description": "Ancient teacher"
+      },
+      {
+        "word": "educate",
+        "type": "synonym",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with teach"
+      },
+      {
+        "word": "confuse",
+        "type": "antonym",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with teach"
+      },
+      {
+        "word": "learn",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with teach"
+      },
+      {
+        "word": "speak",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with teach"
+      },
+      {
+        "word": "joy",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with teach"
+      },
+      {
+        "word": "beauty",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "아름다움",
+          "ja": "美"
+        },
+        "description": "Connected to teach through aesthetic characteristics"
+      },
+      {
+        "word": "create",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with teach"
+      },
+      {
+        "word": "sad",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with teach"
+      },
+      {
+        "word": "freedom",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with teach"
+      },
+      {
+        "word": "excitement",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with teach"
+      },
+      {
+        "word": "build",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with teach"
+      },
+      {
+        "word": "run",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with teach"
+      }
+    ]
+  },
+  "learn": {
+    "word": "learn",
+    "definition": "A actions term",
+    "category": "ACTIONS",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 430,
+    "relatedWords": [
+      {
+        "word": "PLATO",
+        "type": "related",
+        "description": "Classical philosopher"
+      },
+      {
+        "word": "sad",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with learn"
+      },
+      {
+        "word": "run",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with learn"
+      },
+      {
+        "word": "create",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with learn"
+      },
+      {
+        "word": "justice",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with learn"
+      },
+      {
+        "word": "love",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "사랑",
+          "ja": "愛"
+        },
+        "description": "Connected to learn through emotional characteristics"
+      },
+      {
+        "word": "worry",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with learn"
+      },
+      {
+        "word": "peace",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "평화",
+          "ja": "平和"
+        },
+        "description": "Connected to learn through tranquil characteristics"
+      },
+      {
+        "word": "angry",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with learn"
+      },
+      {
+        "word": "happy",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with learn"
+      },
+      {
+        "word": "build",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with learn"
+      },
+      {
+        "word": "wisdom",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "지혜",
+          "ja": "知恵"
+        },
+        "description": "Connected to learn through knowledgeable characteristics"
+      },
+      {
+        "word": "teach",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with learn"
+      },
+      {
+        "word": "beauty",
+        "type": "related",
+        "category": "ACTIONS",
+        "translations": {
+          "ko": "아름다움",
+          "ja": "美"
+        },
+        "description": "Connected to learn through aesthetic characteristics"
+      }
+    ]
+  },
+  "happy": {
+    "word": "happy",
+    "definition": "A emotions term",
+    "category": "EMOTIONS",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 1030,
+    "relatedWords": [
+      {
+        "word": "DALAI LAMA",
+        "type": "related",
+        "description": "Teacher of joy and peace"
+      },
+      {
+        "word": "BOB MARLEY",
+        "type": "related",
+        "description": "Spread happiness through music"
+      },
+      {
+        "word": "joyful",
+        "type": "synonym",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with happy"
+      },
+      {
+        "word": "sad",
+        "type": "antonym",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with happy"
+      },
+      {
+        "word": "joy",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with happy"
+      },
+      {
+        "word": "excitement",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with happy"
+      },
+      {
+        "word": "truth",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "진실",
+          "ja": "真実"
+        },
+        "description": "Connected to happy through fundamental characteristics"
+      },
+      {
+        "word": "hope",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "희망",
+          "ja": "希望"
+        },
+        "description": "Connected to happy through optimistic characteristics"
+      },
+      {
+        "word": "love",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "사랑",
+          "ja": "愛"
+        },
+        "description": "Connected to happy through emotional characteristics"
+      },
+      {
+        "word": "peace",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "평화",
+          "ja": "平和"
+        },
+        "description": "Connected to happy through tranquil characteristics"
+      },
+      {
+        "word": "write",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with happy"
+      },
+      {
+        "word": "justice",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with happy"
+      },
+      {
+        "word": "worry",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with happy"
+      },
+      {
+        "word": "fear",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with happy"
+      }
+    ]
+  },
+  "sad": {
+    "word": "sad",
+    "definition": "A emotions term",
+    "category": "EMOTIONS",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 591,
+    "relatedWords": [
+      {
+        "word": "VAN GOGH",
+        "type": "related",
+        "description": "Expressed deep melancholy"
+      },
+      {
+        "word": "SYLVIA PLATH",
+        "type": "related",
+        "description": "Poet of profound sadness"
+      },
+      {
+        "word": "happy",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with sad"
+      },
+      {
+        "word": "excitement",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with sad"
+      },
+      {
+        "word": "truth",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "진실",
+          "ja": "真実"
+        },
+        "description": "Connected to sad through fundamental characteristics"
+      },
+      {
+        "word": "beauty",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "아름다움",
+          "ja": "美"
+        },
+        "description": "Connected to sad through aesthetic characteristics"
+      },
+      {
+        "word": "justice",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with sad"
+      },
+      {
+        "word": "joy",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with sad"
+      },
+      {
+        "word": "run",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with sad"
+      },
+      {
+        "word": "write",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with sad"
+      },
+      {
+        "word": "build",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with sad"
+      },
+      {
+        "word": "freedom",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with sad"
+      },
+      {
+        "word": "angry",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with sad"
+      },
+      {
+        "word": "speak",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with sad"
+      }
+    ]
+  },
+  "angry": {
+    "word": "angry",
+    "definition": "A emotions term",
+    "category": "EMOTIONS",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 962,
+    "relatedWords": [
+      {
+        "word": "BACH",
+        "type": "related",
+        "description": "Baroque master"
+      },
+      {
+        "word": "BEATLES",
+        "type": "related",
+        "description": "Music revolutionaries"
+      },
+      {
+        "word": "run",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with angry"
+      },
+      {
+        "word": "learn",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with angry"
+      },
+      {
+        "word": "hope",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "희망",
+          "ja": "希望"
+        },
+        "description": "Connected to angry through optimistic characteristics"
+      },
+      {
+        "word": "speak",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with angry"
+      },
+      {
+        "word": "create",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with angry"
+      },
+      {
+        "word": "truth",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "진실",
+          "ja": "真実"
+        },
+        "description": "Connected to angry through fundamental characteristics"
+      },
+      {
+        "word": "sad",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with angry"
+      },
+      {
+        "word": "freedom",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with angry"
+      },
+      {
+        "word": "time",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "시간",
+          "ja": "時間"
+        },
+        "description": "Connected to angry through continuous characteristics"
+      },
+      {
+        "word": "happy",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with angry"
+      },
+      {
+        "word": "build",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with angry"
+      },
+      {
+        "word": "justice",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with angry"
+      }
+    ]
+  },
+  "fear": {
+    "word": "fear",
+    "definition": "A emotions term",
+    "category": "EMOTIONS",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 673,
+    "relatedWords": [
+      {
+        "word": "BACH",
+        "type": "related",
+        "description": "Baroque master"
+      },
+      {
+        "word": "BEATLES",
+        "type": "related",
+        "description": "Music revolutionaries"
+      },
+      {
+        "word": "dread",
+        "type": "synonym",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with fear"
+      },
+      {
+        "word": "courage",
+        "type": "antonym",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with fear"
+      },
+      {
+        "word": "worry",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with fear"
+      },
+      {
+        "word": "anxiety",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with fear"
+      },
+      {
+        "word": "speak",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with fear"
+      },
+      {
+        "word": "time",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "시간",
+          "ja": "時間"
+        },
+        "description": "Connected to fear through continuous characteristics"
+      },
+      {
+        "word": "happy",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with fear"
+      },
+      {
+        "word": "run",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with fear"
+      },
+      {
+        "word": "teach",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with fear"
+      },
+      {
+        "word": "learn",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with fear"
+      },
+      {
+        "word": "create",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with fear"
+      },
+      {
+        "word": "joy",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with fear"
+      }
+    ]
+  },
+  "joy": {
+    "word": "joy",
+    "definition": "A emotions term",
+    "category": "EMOTIONS",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 236,
+    "relatedWords": [
+      {
+        "word": "NEWTON",
+        "type": "related",
+        "description": "Scientific revolutionary"
+      },
+      {
+        "word": "teach",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with joy"
+      },
+      {
+        "word": "sad",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with joy"
+      },
+      {
+        "word": "run",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with joy"
+      },
+      {
+        "word": "speak",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with joy"
+      },
+      {
+        "word": "create",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with joy"
+      },
+      {
+        "word": "truth",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "진실",
+          "ja": "真実"
+        },
+        "description": "Connected to joy through fundamental characteristics"
+      },
+      {
+        "word": "beauty",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "아름다움",
+          "ja": "美"
+        },
+        "description": "Connected to joy through aesthetic characteristics"
+      },
+      {
+        "word": "write",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with joy"
+      },
+      {
+        "word": "love",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "사랑",
+          "ja": "愛"
+        },
+        "description": "Connected to joy through emotional characteristics"
+      },
+      {
+        "word": "hope",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "희망",
+          "ja": "希望"
+        },
+        "description": "Connected to joy through optimistic characteristics"
+      },
+      {
+        "word": "design",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with joy"
+      },
+      {
+        "word": "worry",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with joy"
+      },
+      {
+        "word": "learn",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with joy"
+      }
+    ]
+  },
+  "hope": {
+    "word": "hope",
+    "definition": "optimistic, future-oriented, positive",
+    "category": "EMOTION",
+    "translations": {
+      "ko": "희망",
+      "ja": "希望"
+    },
+    "bookmarks": 169,
+    "relatedWords": [
+      {
+        "word": "HEMINGWAY",
+        "type": "related",
+        "description": "Literary giant"
+      },
+      {
+        "word": "speak",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with hope"
+      },
+      {
+        "word": "peace",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "평화",
+          "ja": "平和"
+        },
+        "description": "Connected to hope through tranquil characteristics"
+      },
+      {
+        "word": "learn",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with hope"
+      },
+      {
+        "word": "wisdom",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "지혜",
+          "ja": "知恵"
+        },
+        "description": "Connected to hope through knowledgeable characteristics"
+      },
+      {
+        "word": "beauty",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "아름다움",
+          "ja": "美"
+        },
+        "description": "Connected to hope through aesthetic characteristics"
+      },
+      {
+        "word": "truth",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "진실",
+          "ja": "真実"
+        },
+        "description": "Connected to hope through fundamental characteristics"
+      },
+      {
+        "word": "excitement",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with hope"
+      },
+      {
+        "word": "time",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "시간",
+          "ja": "時間"
+        },
+        "description": "Connected to hope through continuous characteristics"
+      },
+      {
+        "word": "angry",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with hope"
+      },
+      {
+        "word": "design",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with hope"
+      },
+      {
+        "word": "freedom",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with hope"
+      },
+      {
+        "word": "create",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with hope"
+      },
+      {
+        "word": "love",
+        "type": "related",
+        "category": "EMOTION",
+        "translations": {
+          "ko": "사랑",
+          "ja": "愛"
+        },
+        "description": "Connected to hope through emotional characteristics"
+      }
+    ]
+  },
+  "worry": {
+    "word": "worry",
+    "definition": "A emotions term",
+    "category": "EMOTIONS",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 775,
+    "relatedWords": [
+      {
+        "word": "AUSTEN",
+        "type": "related",
+        "description": "Classic novelist"
+      },
+      {
+        "word": "TOLKIEN",
+        "type": "related",
+        "description": "Fantasy master"
+      },
+      {
+        "word": "design",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with worry"
+      },
+      {
+        "word": "fear",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with worry"
+      },
+      {
+        "word": "peace",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "평화",
+          "ja": "平和"
+        },
+        "description": "Connected to worry through tranquil characteristics"
+      },
+      {
+        "word": "angry",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with worry"
+      },
+      {
+        "word": "joy",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with worry"
+      },
+      {
+        "word": "build",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with worry"
+      },
+      {
+        "word": "learn",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with worry"
+      },
+      {
+        "word": "truth",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "진실",
+          "ja": "真実"
+        },
+        "description": "Connected to worry through fundamental characteristics"
+      },
+      {
+        "word": "speak",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with worry"
+      },
+      {
+        "word": "love",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "사랑",
+          "ja": "愛"
+        },
+        "description": "Connected to worry through emotional characteristics"
+      },
+      {
+        "word": "run",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with worry"
+      },
+      {
+        "word": "teach",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with worry"
+      }
+    ]
+  },
+  "excitement": {
+    "word": "excitement",
+    "definition": "A emotions term",
+    "category": "EMOTIONS",
+    "translations": {
+      "ko": "번역 필요",
+      "ja": "翻訳必要"
+    },
+    "bookmarks": 126,
+    "relatedWords": [
+      {
+        "word": "NEWTON",
+        "type": "related",
+        "description": "Scientific revolutionary"
+      },
+      {
+        "word": "peace",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "평화",
+          "ja": "平和"
+        },
+        "description": "Connected to excitement through tranquil characteristics"
+      },
+      {
+        "word": "sad",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with excitement"
+      },
+      {
+        "word": "design",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with excitement"
+      },
+      {
+        "word": "speak",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with excitement"
+      },
+      {
+        "word": "beauty",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "아름다움",
+          "ja": "美"
+        },
+        "description": "Connected to excitement through aesthetic characteristics"
+      },
+      {
+        "word": "create",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with excitement"
+      },
+      {
+        "word": "angry",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with excitement"
+      },
+      {
+        "word": "time",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "시간",
+          "ja": "時間"
+        },
+        "description": "Connected to excitement through continuous characteristics"
+      },
+      {
+        "word": "run",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with excitement"
+      },
+      {
+        "word": "hope",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "희망",
+          "ja": "希望"
+        },
+        "description": "Connected to excitement through optimistic characteristics"
+      },
+      {
+        "word": "build",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with excitement"
+      },
+      {
+        "word": "write",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with excitement"
+      },
+      {
+        "word": "teach",
+        "type": "related",
+        "category": "EMOTIONS",
+        "translations": {
+          "ko": "번역 필요",
+          "ja": "翻訳必要"
+        },
+        "description": "Associated with excitement"
+      }
+    ]
+  }
+}
