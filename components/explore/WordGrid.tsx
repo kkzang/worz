@@ -545,7 +545,7 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
                     styles.cell,
                     { 
                       width: CELL_SIZE, 
-                      height: rowIndex === 0 ? HISTORY_ROW_HEIGHT : cellHeight,
+                      height: rowIndex === 0 ? HISTORY_ROW_HEIGHT : CELL_SIZE,
                       borderTopWidth: rowIndex === 0 ? 0 : 0.5,
                     },
                     isCenter ? styles.centerCell : 
