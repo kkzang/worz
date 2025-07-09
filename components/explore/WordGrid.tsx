@@ -490,7 +490,7 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
                       styles.cell,
                       { 
                         width: CELL_SIZE,
-                        height: rowIndex === 0 ? HISTORY_ROW_HEIGHT : CELL_SIZE
+                        height: rowIndex === 0 ? HISTORY_ROW_HEIGHT : cellHeight
                       }
                     ]} 
                   />
@@ -533,7 +533,7 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
                   x: colIndex * CELL_SIZE,
                   y: rowIndex * (rowIndex === 0 ? HISTORY_ROW_HEIGHT : CELL_SIZE),
                   width: CELL_SIZE,
-                  height: rowIndex === 0 ? HISTORY_ROW_HEIGHT : CELL_SIZE
+                  height: rowIndex === 0 ? HISTORY_ROW_HEIGHT : cellHeight
                 };
                 newCellPositions.set(cell.word, cellPosition);
               }
@@ -545,7 +545,7 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
                     styles.cell,
                     { 
                       width: CELL_SIZE, 
-                      height: rowIndex === 0 ? HISTORY_ROW_HEIGHT : CELL_SIZE,
+                      height: rowIndex === 0 ? HISTORY_ROW_HEIGHT : cellHeight,
                       borderTopWidth: rowIndex === 0 ? 0 : 0.5,
                     },
                     isCenter ? styles.centerCell : 
@@ -575,8 +575,8 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
                           style={[
                             styles.centerWordText, 
                             { 
-                              fontSize: calculateDynamicFontSize(cell.word || '', CELL_SIZE, true),
-                              lineHeight: calculateDynamicFontSize(cell.word || '', CELL_SIZE, true) * 1.2
+                              fontSize: calculateDynamicFontSize(cell.word || '', Math.min(cellWidth, cellHeight), true),
+                              lineHeight: calculateDynamicFontSize(cell.word || '', Math.min(cellWidth, cellHeight), true) * 1.2
                             }
                           ]}
                           numberOfLines={2}
@@ -593,12 +593,12 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
                           styles.wordText,
                           isHistory ? [
                             styles.historyWordText,
-                            { fontSize: calculateDynamicFontSize(cell.word || '', CELL_SIZE, false, true) }
+                            { fontSize: calculateDynamicFontSize(cell.word || '', Math.min(cellWidth, cellHeight), false, true) }
                           ] : 
                           isPlaceholder ? styles.placeholderWordText :
                           [
                             styles[`${cell.type}WordText`],
-                            { fontSize: calculateDynamicFontSize(cell.word || '', CELL_SIZE, false, false) }
+                            { fontSize: calculateDynamicFontSize(cell.word || '', Math.min(cellWidth, cellHeight), false, false) }
                           ],
                         ]}
                         numberOfLines={2}
