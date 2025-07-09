@@ -6,6 +6,7 @@ import Colors from '@/constants/Colors';
 import WordGrid from '@/components/explore/WordGrid';
 import { getWordData, updateWordView, getTrendingWords, clearWordCache } from '@/utils/wordUtils';
 import { addToSearchHistory } from '@/utils/searchUtils';
+import { supabase } from '@/utils/supabase';
 
 export default function ExploreScreen() {
   const { word } = useLocalSearchParams<{ word: string }>();
@@ -15,14 +16,31 @@ export default function ExploreScreen() {
   const [focused, setFocused] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [trendingWords, setTrendingWords] = useState<string[]>([]);
+  const [isAdmin, setIsAdmin] = useState(false);
   const scrollX = useRef(new Animated.Value(0)).current;
   const flatListRef = useRef<FlatList>(null);
   
   useEffect(() => {
     loadWordData(word || 'house');
     loadTrendingWords();
+    checkAdminStatus();
   }, [word]);
 
+  const checkAdminStatus = async () => {
+    try {
+      const { data: { session } } = await supabase.auth.getSession();
+      const adminUserId = process.env.EXPO_PUBLIC_ADMIN_USER_ID;
+      
+      if (session && session.user.id === adminUserId) {
+        setIsAdmin(true);
+      } else {
+        setIsAdmin(false);
+      }
+    } catch (error) {
+      console.error('Error checking admin status:', error);
+      setIsAdmin(false);
+    }
+  };
   const loadWordData = async (wordToLoad: string) => {
     try {
       setIsLoading(true);
@@ -202,7 +220,7 @@ export default function ExploreScreen() {
           <Text style={styles.adText}>Advertisement</Text>
         </View>
         
-        {Platform.OS === 'web' && (
+        {Platform.OS === 'web' && isAdmin && (
           <View style={styles.databaseControls}>
             <TouchableOpacity 
               style={styles.databaseButton} 
