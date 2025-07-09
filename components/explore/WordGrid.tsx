@@ -19,7 +19,6 @@ import { getWordData, addWordToDatabase } from '@/utils/wordUtils';
 const COLS = 3;
 const ROWS = 5;
 const HISTORY_ROW_HEIGHT = 40;
-const AD_BANNER_HEIGHT = 180;
 const MIN_CELL_SIZE = 80;
 const CONNECTION_STRENGTH_INCREASE = 0.2;
 
@@ -46,9 +45,7 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
   const [selectedWord, setSelectedWord] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   
-  // Calculate available height more precisely
-  const bottomSectionHeight = HISTORY_ROW_HEIGHT + 120; // trending + search sections
-  const availableHeight = height - AD_BANNER_HEIGHT - bottomSectionHeight;
+  const availableHeight = height - HISTORY_ROW_HEIGHT;
   const CELL_SIZE = Math.max(Math.min(availableHeight / (ROWS - 1), width / COLS), MIN_CELL_SIZE);
   
   // Enhanced dynamic font size calculation for any word based on length and cell size

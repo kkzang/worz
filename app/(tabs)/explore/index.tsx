@@ -323,7 +323,7 @@ const styles = StyleSheet.create({
     color: Colors.textSecondary,
   },
   adBanner: {
-    height: 180,
+    height: 90,
     backgroundColor: Colors.backgroundDark,
     justifyContent: 'center',
     alignItems: 'center',
