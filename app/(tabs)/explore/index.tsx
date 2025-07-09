@@ -16,6 +16,7 @@ export default function ExploreScreen() {
   const [focused, setFocused] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [trendingWords, setTrendingWords] = useState<string[]>([]);
+  const [searchHistory, setSearchHistory] = useState<Array<{id: string, word: string, date: string}>>([]);
   const [isAdmin, setIsAdmin] = useState(false);
   const [contentHeight, setContentHeight] = useState(0);
   const scrollX = useRef(new Animated.Value(0)).current;
@@ -24,8 +25,19 @@ export default function ExploreScreen() {
   useEffect(() => {
     loadWordData(word || 'house');
     loadTrendingWords();
+    loadSearchHistory();
     checkAdminStatus();
   }, [word]);
+
+  const loadSearchHistory = async () => {
+    try {
+      const history = await getSearchHistory();
+      setSearchHistory(history.slice(0, 5));
+    } catch (error) {
+      console.error('Error loading search history:', error);
+      setSearchHistory([]);
+    }
+  };
 
   const checkAdminStatus = async () => {
     try {
@@ -247,6 +259,7 @@ export default function ExploreScreen() {
             <WordGrid 
               centerWord={currentWord}
               surroundingWords={wordData.relatedWords}
+              searchHistory={searchHistory}
               onWordPress={handleWordPress}
               onWordDataRefresh={refreshCurrentWordData}
               gridHeight={contentHeight}

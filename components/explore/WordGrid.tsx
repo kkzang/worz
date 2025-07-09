@@ -25,6 +25,7 @@ const CONNECTION_STRENGTH_INCREASE = 0.2;
 interface WordGridProps {
   centerWord: string;
   surroundingWords: RelatedWord[];
+  searchHistory?: Array<{id: string, word: string, date: string}>;
   onWordPress: (word: string) => void;
   onWordDataRefresh: () => void;
   gridHeight?: number;
@@ -37,26 +38,17 @@ interface CellPosition {
   height: number;
 }
 
-export default function WordGrid({ centerWord, surroundingWords = [], onWordPress, onWordDataRefresh, gridHeight }: WordGridProps) {
+export default function WordGrid({ centerWord, surroundingWords = [], searchHistory = [], onWordPress, onWordDataRefresh, gridHeight }: WordGridProps) {
   const { width: screenWidth, height: screenHeight } = useWindowDimensions();
   const [showRequestForm, setShowRequestForm] = useState(false);
   const [requestedWord, setRequestedWord] = useState('');
   const [cellPositions, setCellPositions] = useState<Map<string, CellPosition>>(new Map());
-  const [searchHistory, setSearchHistory] = useState<string[]>([]);
   const [grid, setGrid] = useState<(string | null)[][]>([]);
   
   const height = gridHeight || screenHeight * 0.7;
   const effectiveHeight = height - (searchHistory.length > 0 ? HISTORY_ROW_HEIGHT : 0);
   const cellWidth = Math.max(screenWidth / COLS, MIN_CELL_SIZE);
   const cellHeight = Math.max(effectiveHeight / ROWS, MIN_CELL_SIZE);
-
-  useEffect(() => {
-    const loadSearchHistory = async () => {
-      const history = await getSearchHistory();
-      setSearchHistory(history.slice(0, 5));
-    };
-    loadSearchHistory();
-  }, []);
 
   useEffect(() => {
     // Initialize grid with center word and surrounding words
@@ -144,13 +136,13 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
       {searchHistory.length > 0 && (
         <View style={styles.historyContainer}>
           <Text style={styles.historyTitle}>Recent:</Text>
-          {searchHistory.map((word, index) => (
+          {searchHistory.map((item) => (
             <TouchableOpacity
-              key={index}
+              key={item.id}
               style={styles.historyItem}
-              onPress={() => onWordPress(word)}
+              onPress={() => onWordPress(item.word)}
             >
-              <Text style={styles.historyText}>{word}</Text>
+              <Text style={styles.historyText}>{item.word}</Text>
             </TouchableOpacity>
           ))}
         </View>
