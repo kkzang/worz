@@ -17,7 +17,6 @@ export default function ExploreScreen() {
   const [isLoading, setIsLoading] = useState(true);
   const [trendingWords, setTrendingWords] = useState<string[]>([]);
   const [isAdmin, setIsAdmin] = useState(false);
-  const [contentHeight, setContentHeight] = useState(0);
   const scrollX = useRef(new Animated.Value(0)).current;
   const flatListRef = useRef<FlatList>(null);
   
@@ -217,6 +216,10 @@ export default function ExploreScreen() {
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
+        <View style={styles.adBanner}>
+          <Text style={styles.adText}>Advertisement</Text>
+        </View>
+        
         {Platform.OS === 'web' && isAdmin && (
           <View style={styles.databaseControls}>
             <TouchableOpacity 
@@ -236,20 +239,13 @@ export default function ExploreScreen() {
           </View>
         )}
         
-        <View 
-          style={styles.content}
-          onLayout={(event) => {
-            const { height } = event.nativeEvent.layout;
-            setContentHeight(height);
-          }}
-        >
+        <View style={styles.content}>
           {wordData && (
             <WordGrid 
               centerWord={currentWord}
               surroundingWords={wordData.relatedWords}
               onWordPress={handleWordPress}
               onWordDataRefresh={refreshCurrentWordData}
-              gridHeight={contentHeight}
             />
           )}
         </View>
@@ -324,6 +320,17 @@ const styles = StyleSheet.create({
   loadingText: {
     fontFamily: 'Inter-Medium',
     fontSize: 18,
+    color: Colors.textSecondary,
+  },
+  adBanner: {
+    height: 90,
+    backgroundColor: Colors.backgroundDark,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  adText: {
+    fontFamily: 'Inter-Regular',
+    fontSize: 14,
     color: Colors.textSecondary,
   },
   content: {
