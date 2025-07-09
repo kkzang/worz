@@ -194,7 +194,7 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
                     style={styles.emptyCell}
                     onPress={handleAddWordPress}
                   >
-                    <Plus size={20} color={Colors.light.tabIconDefault} />
+                    <Plus size={20} color={Colors.textSecondary} />
                   </TouchableOpacity>
                 )}
               </View>
