@@ -47,8 +47,12 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
   const [isLoading, setIsLoading] = useState(false);
   
   // Calculate cell size based on the actual grid height
-  const availableHeightForCells = gridHeight - HISTORY_ROW_HEIGHT;
-  const CELL_SIZE = Math.max(Math.min(availableHeightForCells / (ROWS - 1), width / COLS), MIN_CELL_SIZE);
+  const availableHeightForCells = Math.max(gridHeight - HISTORY_ROW_HEIGHT, 200);
+  const cellHeight = availableHeightForCells / (ROWS - 1);
+  const cellWidth = width / COLS;
+  
+  // Use the smaller dimension to maintain aspect ratio, but ensure minimum size
+  const CELL_SIZE = Math.max(Math.min(cellHeight, cellWidth), MIN_CELL_SIZE);
   
   // Enhanced dynamic font size calculation for any word based on length and cell size
   const calculateDynamicFontSize = (word: string, cellSize: number, isCenter: boolean = false, isHistory: boolean = false) => {
@@ -489,8 +493,8 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
                     style={[
                       styles.cell,
                       { 
-                        width: CELL_SIZE,
-                        height: rowIndex === 0 ? HISTORY_ROW_HEIGHT : CELL_SIZE
+                        width: cellWidth,
+                        height: rowIndex === 0 ? HISTORY_ROW_HEIGHT : cellHeight
                       }
                     ]} 
                   />
@@ -509,7 +513,7 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
                     key={`add-${rowIndex}-${colIndex}`}
                     style={[
                       styles.cell,
-                      { width: CELL_SIZE, height: CELL_SIZE },
+                      { width: cellWidth, height: cellHeight },
                       styles.addCell,
                     ]}
                     onPress={() => setShowRequestForm(true)}
@@ -530,9 +534,9 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
               // Store cell position for drawing connections (exclude placeholders)
               if (!isPlaceholder && cell.word) {
                 const cellPosition = {
-                  x: colIndex * CELL_SIZE,
-                  y: rowIndex * (rowIndex === 0 ? HISTORY_ROW_HEIGHT : CELL_SIZE),
-                  width: CELL_SIZE,
+                  x: colIndex * cellWidth,
+                  y: rowIndex === 0 ? 0 : HISTORY_ROW_HEIGHT + (rowIndex - 1) * cellHeight,
+                  width: cellWidth,
                   height: rowIndex === 0 ? HISTORY_ROW_HEIGHT : CELL_SIZE
                 };
                 newCellPositions.set(cell.word, cellPosition);
@@ -544,8 +548,8 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
                   style={[
                     styles.cell,
                     { 
-                      width: CELL_SIZE, 
-                      height: rowIndex === 0 ? HISTORY_ROW_HEIGHT : CELL_SIZE,
+                      width: cellWidth, 
+                      height: rowIndex === 0 ? HISTORY_ROW_HEIGHT : cellHeight,
                       borderTopWidth: rowIndex === 0 ? 0 : 0.5,
                     },
                     isCenter ? styles.centerCell : 
