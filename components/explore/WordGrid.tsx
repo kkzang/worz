@@ -27,7 +27,6 @@ interface WordGridProps {
   surroundingWords: RelatedWord[];
   onWordPress: (word: string) => void;
   onWordDataRefresh: () => void;
-  gridHeight: number;
 }
 
 interface CellPosition {
@@ -37,17 +36,23 @@ interface CellPosition {
   height: number;
 }
 
-export default function WordGrid({ centerWord, surroundingWords = [], onWordPress, onWordDataRefresh, gridHeight }: WordGridProps) {
+export default function WordGrid({ centerWord, surroundingWords = [], onWordPress, onWordDataRefresh }: WordGridProps) {
   const [showRequestForm, setShowRequestForm] = useState(false);
-  const { width } = useWindowDimensions();
+  const { width, height } = useWindowDimensions();
   const [searchHistory, setSearchHistory] = useState<Array<{ word: string; bookmarks: number }>>([]);
   const [centerWordData, setCenterWordData] = useState(null);
   const [cellPositions, setCellPositions] = useState<Map<string, CellPosition>>(new Map());
   const [selectedWord, setSelectedWord] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   
-  // Calculate cell size based on the actual grid height
-  const availableHeightForCells = gridHeight - HISTORY_ROW_HEIGHT;
+  // Calculate available height: total height minus ad banner, database controls, trending section, and search section
+  const AD_BANNER_HEIGHT = 90;
+  const DATABASE_CONTROLS_HEIGHT = 40; // Approximate height when visible
+  const TRENDING_SECTION_HEIGHT = 60; // Height of trending words section
+  const SEARCH_SECTION_HEIGHT = 120; // Height of search section with padding
+  
+  const availableGridHeight = height - AD_BANNER_HEIGHT - DATABASE_CONTROLS_HEIGHT - TRENDING_SECTION_HEIGHT - SEARCH_SECTION_HEIGHT;
+  const availableHeightForCells = availableGridHeight - HISTORY_ROW_HEIGHT;
   const CELL_SIZE = Math.max(Math.min(availableHeightForCells / (ROWS - 1), width / COLS), MIN_CELL_SIZE);
   
   // Enhanced dynamic font size calculation for any word based on length and cell size
@@ -471,7 +476,7 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
     }
     
     return (
-      <View style={[styles.container, { height: gridHeight }]}>
+      <View style={[styles.container, { height: availableGridHeight }]}>
         {renderConnections()}
         {grid.map((row, rowIndex) => (
           <View 
