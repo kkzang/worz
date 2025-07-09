@@ -209,7 +209,7 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: Colors.light.background,
+    backgroundColor: Colors.background,
   },
   historyContainer: {
     flexDirection: 'row',
@@ -217,13 +217,13 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 8,
     height: HISTORY_ROW_HEIGHT,
-    backgroundColor: Colors.light.background,
+    backgroundColor: Colors.background,
     borderBottomWidth: 1,
-    borderBottomColor: Colors.light.tabIconDefault + '20',
+    borderBottomColor: Colors.textSecondary + '20',
   },
   historyTitle: {
     fontSize: 12,
-    color: Colors.light.tabIconDefault,
+    color: Colors.textSecondary,
     marginRight: 8,
     fontWeight: '500',
   },
@@ -231,12 +231,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     paddingVertical: 4,
     marginRight: 8,
-    backgroundColor: Colors.light.tabIconDefault + '10',
+    backgroundColor: Colors.textSecondary + '10',
     borderRadius: 12,
   },
   historyText: {
     fontSize: 12,
-    color: Colors.light.text,
+    color: Colors.text,
   },
   gridContainer: {
     flex: 1,
@@ -252,7 +252,7 @@ const styles = StyleSheet.create({
     padding: 4,
   },
   wordButton: {
-    backgroundColor: Colors.light.tint + '20',
+    backgroundColor: Colors.primary + '20',
     borderRadius: 8,
     padding: 8,
     minHeight: 60,
@@ -260,15 +260,15 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderWidth: 1,
-    borderColor: Colors.light.tint + '40',
+    borderColor: Colors.primary + '40',
   },
   centerWordButton: {
-    backgroundColor: Colors.light.tint,
-    borderColor: Colors.light.tint,
+    backgroundColor: Colors.primary,
+    borderColor: Colors.primary,
   },
   wordText: {
     fontSize: 12,
-    color: Colors.light.text,
+    color: Colors.text,
     textAlign: 'center',
     fontWeight: '500',
   },
@@ -277,7 +277,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   emptyCell: {
-    backgroundColor: Colors.light.tabIconDefault + '10',
+    backgroundColor: Colors.textSecondary + '10',
     borderRadius: 8,
     padding: 8,
     minHeight: 60,
@@ -285,7 +285,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderWidth: 1,
-    borderColor: Colors.light.tabIconDefault + '20',
+    borderColor: Colors.textSecondary + '20',
     borderStyle: 'dashed',
   },
 });
