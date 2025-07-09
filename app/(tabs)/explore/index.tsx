@@ -17,6 +17,7 @@ export default function ExploreScreen() {
   const [isLoading, setIsLoading] = useState(true);
   const [trendingWords, setTrendingWords] = useState<string[]>([]);
   const [isAdmin, setIsAdmin] = useState(false);
+  const [contentHeight, setContentHeight] = useState(0);
   const scrollX = useRef(new Animated.Value(0)).current;
   const flatListRef = useRef<FlatList>(null);
   
@@ -240,7 +241,212 @@ export default function ExploreScreen() {
         )}
         
         <View style={styles.content}>
-          {wordData && (
+          <View 
+            style={styles.gridContainer}
+            onLayout={(event) => {
+              const { height } = event.nativeEvent.layout;
+              setContentHeight(height);
+            }}
+          >
+            {wordData && contentHeight > 0 && (
+              <WordGrid 
+                centerWord={currentWord}
+                surroundingWords={wordData.relatedWords}
+                onWordPress={handleWordPress}
+                onWordDataRefresh={refreshCurrentWordData}
+                gridHeight={contentHeight}
+              />
+            )}
+          </View>
+        </View>
+        
+        <View style={styles.bottomSection}>
+          <View style={styles.trendingSection}>
+            <Animated.FlatList
+              ref={flatListRef}
+              data={extendedTrendingWords}
+              renderItem={renderTrendingWord}
+              keyExtractor={(item, index) => `${item}-${index}`}
+              horizontal
+              showsHorizontalScrollIndicator={false}
+              contentContainerStyle={styles.trendingList}
+              onScroll={handleScroll}
+              scrollEventThrottle={16}
+              decelerationRate="normal"
+              initialScrollIndex={trendingWords.length}
+              getItemLayout={(data, index) => ({
+                length: 80,
+                offset: 80 * index,
+                index,
+              })}
+            />
+          </View>
+          
+          <View style={styles.searchRow}>
+            <View style={[styles.searchContainer, focused && styles.searchContainerFocused]}>
+              <Search size={22} color={Colors.textSecondary} />
+              <TextInput
+                style={styles.searchInput}
+                placeholder="Search for a word..."
+                value={searchQuery}
+                onChangeText={setSearchQuery}
+                onFocus={() => setFocused(true)}
+                onBlur={() => setFocused(false)}
+                returnKeyType="search"
+                onSubmitEditing={handleSearch}
+                autoCapitalize="none"
+                autoCorrect={false}
+              />
+            </View>
+            <TouchableOpacity 
+              style={[styles.searchButton, !searchQuery.trim() && styles.searchButtonDisabled]}
+              onPress={handleSearch}
+              activeOpacity={0.8}
+              disabled={!searchQuery.trim()}
+            >
+              <Text style={styles.searchButtonText}>Search</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </View>
+    </SafeAreaView>
+  );
+}
+
+const styles = StyleSheet.create({
+  safeArea: {
+    flex: 1,
+    backgroundColor: Colors.background,
+  },
+  container: {
+    flex: 1,
+    backgroundColor: Colors.background,
+  },
+  loadingContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  loadingText: {
+    fontFamily: 'Inter-Medium',
+    fontSize: 18,
+    color: Colors.textSecondary,
+  },
+  adBanner: {
+    height: 90,
+    backgroundColor: Colors.backgroundDark,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  adText: {
+    fontFamily: 'Inter-Regular',
+    fontSize: 14,
+    color: Colors.textSecondary,
+  },
+  content: {
+    flex: 1,
+  },
+  gridContainer: {
+    flex: 1,
+  },
+  bottomSection: {
+    borderTopWidth: 1,
+    borderTopColor: Colors.border,
+    backgroundColor: Colors.background,
+    paddingTop: 12,
+  },
+  trendingSection: {
+    paddingBottom: 12,
+  },
+  trendingList: {
+    paddingHorizontal: 16,
+  },
+  trendingWord: {
+    backgroundColor: Colors.wordGrid.related,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    borderRadius: 12,
+    alignItems: 'center',
+    flexDirection: 'row',
+    marginRight: 8,
+    minWidth: 80,
+  },
+  trendingWordText: {
+    fontFamily: 'Inter-Medium',
+    fontSize: 14,
+    color: Colors.text,
+    textAlign: 'center',
+    flex: 1,
+  },
+  searchRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    padding: 16,
+    paddingTop: 12,
+    borderTopWidth: 1,
+    borderTopColor: Colors.border,
+  },
+  searchContainer: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: Colors.backgroundDark,
+    borderRadius: 10,
+    padding: 12,
+    borderWidth: 1,
+    borderColor: 'transparent',
+  },
+  searchContainerFocused: {
+    borderColor: Colors.primary,
+    backgroundColor: Colors.background,
+  },
+  searchInput: {
+    flex: 1,
+    fontFamily: 'Inter-Regular',
+    fontSize: 17,
+    color: Colors.text,
+    marginLeft: 8,
+  },
+  searchButton: {
+    backgroundColor: Colors.primary,
+    borderRadius: 10,
+    paddingHorizontal: 20,
+    paddingVertical: 12,
+    alignItems: 'center',
+  },
+  searchButtonDisabled: {
+    backgroundColor: Colors.border,
+  },
+  searchButtonText: {
+    fontFamily: 'Inter-Bold',
+    fontSize: 17,
+    color: 'white',
+  },
+  databaseControls: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    gap: 8,
+    paddingVertical: 8,
+    borderBottomWidth: 1,
+    borderBottomColor: Colors.border,
+    flexWrap: 'wrap',
+  },
+  databaseButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    backgroundColor: Colors.backgroundDark,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 6,
+  },
+  databaseButtonText: {
+    fontFamily: 'Inter-Medium',
+    fontSize: 15,
+    color: Colors.text,
+  },
+});
             <WordGrid 
               centerWord={currentWord}
               surroundingWords={wordData.relatedWords}

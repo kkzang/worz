@@ -27,6 +27,7 @@ interface WordGridProps {
   surroundingWords: RelatedWord[];
   onWordPress: (word: string) => void;
   onWordDataRefresh: () => void;
+  gridHeight: number;
 }
 
 interface CellPosition {
@@ -36,17 +37,18 @@ interface CellPosition {
   height: number;
 }
 
-export default function WordGrid({ centerWord, surroundingWords = [], onWordPress, onWordDataRefresh }: WordGridProps) {
+export default function WordGrid({ centerWord, surroundingWords = [], onWordPress, onWordDataRefresh, gridHeight }: WordGridProps) {
   const [showRequestForm, setShowRequestForm] = useState(false);
-  const { width, height } = useWindowDimensions();
+  const { width } = useWindowDimensions();
   const [searchHistory, setSearchHistory] = useState<Array<{ word: string; bookmarks: number }>>([]);
   const [centerWordData, setCenterWordData] = useState(null);
   const [cellPositions, setCellPositions] = useState<Map<string, CellPosition>>(new Map());
   const [selectedWord, setSelectedWord] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   
-  const availableHeight = height - HISTORY_ROW_HEIGHT;
-  const CELL_SIZE = Math.max(Math.min(availableHeight / (ROWS - 1), width / COLS), MIN_CELL_SIZE);
+  // Calculate cell size based on the actual grid height
+  const availableHeightForCells = gridHeight - HISTORY_ROW_HEIGHT;
+  const CELL_SIZE = Math.max(Math.min(availableHeightForCells / (ROWS - 1), width / COLS), MIN_CELL_SIZE);
   
   // Enhanced dynamic font size calculation for any word based on length and cell size
   const calculateDynamicFontSize = (word: string, cellSize: number, isCenter: boolean = false, isHistory: boolean = false) => {
@@ -469,7 +471,7 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
     }
     
     return (
-      <View style={[styles.container, { height }]}>
+      <View style={[styles.container, { height: gridHeight }]}>
         {renderConnections()}
         {grid.map((row, rowIndex) => (
           <View 
