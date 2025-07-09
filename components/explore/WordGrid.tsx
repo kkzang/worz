@@ -20,7 +20,6 @@ const COLS = 3;
 const ROWS = 5;
 const HISTORY_ROW_HEIGHT = 40;
 const MIN_CELL_SIZE = 80;
-const AD_BANNER_HEIGHT = 120;
 const CONNECTION_STRENGTH_INCREASE = 0.2;
 
 interface WordGridProps {
@@ -46,11 +45,8 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
   const [selectedWord, setSelectedWord] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   
-  const [gridHeight, setGridHeight] = useState(height);
-  
-  // Calculate available height excluding ad banner, trending section, and search area
-  const availableHeight = gridHeight - AD_BANNER_HEIGHT - 120; // 120px for trending + search areas
-  const CELL_SIZE = Math.max(Math.min(availableHeight / ROWS, width / COLS), MIN_CELL_SIZE);
+  const availableHeight = height - HISTORY_ROW_HEIGHT;
+  const CELL_SIZE = Math.max(Math.min(availableHeight / (ROWS - 1), width / COLS), MIN_CELL_SIZE);
   
   // Enhanced dynamic font size calculation for any word based on length and cell size
   const calculateDynamicFontSize = (word: string, cellSize: number, isCenter: boolean = false, isHistory: boolean = false) => {
@@ -473,10 +469,7 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
     }
     
     return (
-      <View 
-        style={[styles.container, { height: availableHeight }]}
-        onLayout={handleGridLayout}
-      >
+      <View style={[styles.container, { height }]}>
         {renderConnections()}
         {grid.map((row, rowIndex) => (
           <View 
@@ -684,11 +677,6 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
     setCellPositions(new Map(cellPositions));
   }, [surroundingWords]);
   
-  const handleGridLayout = (event: any) => {
-    const { height: layoutHeight } = event.nativeEvent.layout;
-    setGridHeight(layoutHeight);
-  };
-  
   if (showRequestForm) {
     return (
       <WordRequestForm
@@ -705,11 +693,10 @@ export default function WordGrid({ centerWord, surroundingWords = [], onWordPres
 const styles = StyleSheet.create({
   container: {
     width: '100%',
-    flex: 1,
+    alignItems: 'stretch',
   },
   row: {
     flexDirection: 'row',
-    flex: 1,
   },
   cell: {
     justifyContent: 'center',
