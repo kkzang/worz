@@ -5,7 +5,7 @@ import { Search, Download } from 'lucide-react-native';
 import Colors from '@/constants/Colors';
 import WordGrid from '@/components/explore/WordGrid';
 import { getWordData, updateWordView, getTrendingWords, clearWordCache } from '@/utils/wordUtils';
-import { addToSearchHistory } from '@/utils/searchUtils';
+import { addToSearchHistory, getSearchHistory } from '@/utils/searchUtils';
 import { supabase } from '@/utils/supabase';
 
 export default function ExploreScreen() {
